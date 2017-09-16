@@ -22,11 +22,13 @@
 	color: #f89513;
 	font-size: 18px;
 	font-family: 'gora_freeregular';
+	display: inline-block;
 }
 .contacts{
 	list-style-type: none;
 	font-family: "Open Sans";
 	font-weight: bold;
+	display: inline-block;
 }
 
 .phone{
@@ -145,6 +147,7 @@
 	color: #ffffff;
 	width: 239px;
 	height: 50px;
+	display: inline-block;
 }
  
 .LoftSchool{
@@ -156,10 +159,12 @@
 	color: #f89513;
 	font-size: 18px;
  	font-family: 'gora_freeregular';
+ 	display: inline-block;
 }
 
 .contacts{
 	text-align: right;
+	display: inline-block;
 }
 
 .footer__right{
