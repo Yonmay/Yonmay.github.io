@@ -1,0 +1,172 @@
+
+
+@font-face {
+    font-family: 'gora_freeregular';
+    src: url('fonts/gora-free-webfont.woff2') format('woff2'),
+         url('fonts/gora-free-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*head*/
+
+.header{
+	background: #131415;
+	width: 100%;
+	height: 77px;
+	list-style-type: none;
+}
+
+.name{
+	color: #f89513;
+	font-size: 18px;
+	font-family: 'gora_freeregular';
+}
+.contacts{
+	list-style-type: none;
+	font-family: "Open Sans";
+	font-weight: bold;
+}
+
+.phone{
+	color: #ffffff;
+}
+
+.schedule{
+	color: #f89513;
+	text-decoration: underline;
+}
+/*end head*/
+
+/*sidebar*/
+
+.sidebar__name{
+	list-style-type: none;
+}
+
+.service_icon__link{
+	text-decoration: none;
+	color: #f89513;
+}
+
+.service_icon__img{
+	float: left;
+}
+
+.service_icon__text_1, .service_icon__text_3{
+	font-family: "Open Sans";
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.service_icon__text_2{
+	font-family: "Open Sans";
+	font-weight: bold;
+	color: #131415;
+	font-size: 12px;
+}
+
+/*end sidebar*/
+
+/*services*/
+
+
+.breadcrumbs__list{
+	list-style-type: none;
+	font-size: 14px;
+	font-family: "Open Sans";
+	font-style: italic;
+
+}
+
+.breadcrumbs__link_1{
+	color: #f89513;
+	text-decoration: underline;
+	float: left;
+}
+
+.breadcrumbs__link_2:before{
+	content: "/";
+	color: #221f1f;
+}
+
+.services__name{
+	font-size: 49px;
+	font-family: 'Roboto';
+	font-weight: bold;
+	width: 154px;
+	height: 45px;
+}
+
+
+
+.advantage__text{
+	
+	width: 255px;
+	height: 350px;
+}
+
+.advantage__img img{
+	border-radius: 2px;
+	width: 250px;
+	height: 153px;
+}
+
+
+.advantage{
+	list-style-type: none;
+}
+
+.advantage__text__name{
+	font-size: 18px;
+	font-family: "Open Sans";
+	font-weight: bold;
+}
+
+.advantage__text__meaning{
+	font-size: 14px;
+	font-family: "Open Sans";
+	text-align: left;
+}
+/*end services*/
+
+/*footer*/
+
+.footer{
+	background-color: #131415;
+	width: 100%;
+	height: 77px;
+}
+
+.footer__left{
+	font-size: 14px;
+	font-family: "Open Sans";
+	color: #ffffff;
+	width: 239px;
+	height: 50px;
+}
+ 
+.LoftSchool{
+	text-decoration: underline;
+}
+
+.footer__center{
+	text-align: center;
+	color: #f89513;
+	font-size: 18px;
+ 	font-family: 'gora_freeregular';
+}
+
+.contacts{
+	text-align: right;
+}
+
+.footer__right{
+	font-size: 14px;
+	font-family: "Open Sans";
+	font-weight: bold;
+	color: #ffffff;
+}
+
+/*end footer*/
