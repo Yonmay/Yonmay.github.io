@@ -1,4 +1,6 @@
-
+body{
+	padding:0;margin:0;
+}
 
 @font-face {
     font-family: 'gora_freeregular';
@@ -150,8 +152,12 @@
 	display: inline-block;
 }
  
-.LoftSchool{
+.loftSchool{
 	text-decoration: underline;
+	font-size: 14px;
+	font-family: "Open Sans";
+	font-weight: bold;
+	color: #ffffff;
 }
 
 .footer__center{
